@@ -1,10 +1,10 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! Foreign Keys have been created using ALTER Table after all tables have been created.
---       This avoids the need to creat tables in order.
+--       This avoids the need to create tables in order.
 
 CREATE TABLE departments (
     dept_no varchar(10) NOT NULL,
-    dept-name varchar(25) NOT NULL,
+    dept_name varchar(25) NOT NULL,
     CONSTRAINT pk_departments PRIMARY KEY (
         dept_no
      )
